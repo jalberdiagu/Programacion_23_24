@@ -11,14 +11,17 @@ public class jarduera9 {
 		erabiltzailea=scan.next();
 		pasahitza=scan.next();
 		
+		erabiltzailea = "ikaslea";
 		if (erabiltzailea == "ikaslea") {
 			System.out.println("Idatzitako erabiltzailea zuzena da");
-		System.out.println("Idatzi orain pasahitza ");
 		}
 		else {
 			System.out.println("Idatzitako erabiltzailea ez da zuzena");
 		}
-		if(pasahitza="ik2349") {
+		System.out.println("Idatzi zure pasahitza");
+		pasahitza=scan.next();	
+	
+		if(pasahitza!="ik2349") {
 			System.out.println("Idatzitako pasahitza zuzena da");
 		}
 		else{

@@ -4,13 +4,20 @@ public class jarduera7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		double  oinarria, altuera, emaitza;
+		
 		System.out.println("Idatzi triangeluaren oinarria");
-		float oinarria, altuera, emaitza;
-		Scanner oinarria=new Scanner (System.in);
+		
+		Scanner teklatua=new Scanner (System.in);
+		oinarria = teklatua.nextDouble();
 		System.out.println("Idatzi karratuaren altuera");
-		Scanner altuera=new Scanner (System.in);
-		emaitza= oinarria *altuera/2.nextInt();
-		System.out.println("Karratueren azalera "+ emaitza + "da";	
+		altuera = teklatua.nextDouble();
+		
+		emaitza= oinarria *altuera/2;
+				
+				
+		System.out.println("Karratueren azalera "+ emaitza + " da");	
 		
 	}
 

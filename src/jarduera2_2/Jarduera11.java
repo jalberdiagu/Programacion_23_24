@@ -14,10 +14,10 @@ public class Jarduera11 {
 		System.out.println("Idatzi letra bat, letra larriz");
 		letra =scan.next();
 		
-		if(letra == "B" || "E") {
+		if(letra.equals  ("e")) {
 			System.out.println("ONDO");
 		}
-		else if (letra == "b" || "e") {
+		else if (letra.equals  ("b")) {
 			System.out.println("Idatzi berdina letra larriz!");
 		}
 	

@@ -14,13 +14,13 @@ public class jarduera2 {
 		int i;
 		
 		for (i = 0; i <= 4; i++) {
-			System.out.println("Idatzi " + i + ". hitza:");
+			System.out.println("Idatzi " + (i+1) + ". hitza:");
 			hitzak[i] = teklatua.nextLine();
 			
 		}
 		
 		for ( i = 0; i < hitzak.length; i++) {
-			System.out.println(i + ". elementuan " + hitzak[i] + " gorde da");
+			System.out.println(i + ". elementuan " + hitzak[i] + " gorde da.");
 		}
 		
 		

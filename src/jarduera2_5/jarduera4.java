@@ -6,25 +6,35 @@ public class jarduera4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//
 		
-		Scanner teklatua = new Scanner (System.in);
-
-		String [] hitzak = new String[5];
-
-
-
-		for (i= 0; i <= 4; i++){
-		System.out.println(“Idatzi “ + i + “. hitza”);
-		hitzak[i] = teklatua.next();
-		}
-
-		System.out.println("0. posizioan (" + hitzak[0] + ") hitza dago."”);
-		System.out.println(“1. posizioan (“ + hitzak[1] + “) dago.”);
-		System.out.println(“2. posizioan (“ + hitzak[2] + “) dago.”);
-		System.out.println(“3. posizioan (“ + hitzak[3] + “) dago.”);
-		System.out.println(“4. posizioan (“ + hitzak[4] + “) dago.”);
-
+		
+		        String[] hitzak = new String[5];
+		        
+		        Scanner teklatua = new Scanner(System.in);
+		        
+		        System.out.println("Hayek dira Array-ean sortu diren hitzak:");
+		        
+		        for (int i = 0; i < 5; i++) {
+		            System.out.print("Sartu hitz bat: ");
+		            hitzak[i] = teklatua.nextLine();
+		         //   System.out.println(i + ". posizioan ( "+ hitzak[i] + " ) hitza gorde da.");
+		            for ( int j :  hitzak[i]) {
+			        	System.out.println(j);
+			        }
+		        }
+		        
+		      
+		        
+		        int cont = 0;
+		        
+		       System.out.println("Sartutako hitzak hauek dira:");
+		       for (String palabra : hitzak) {
+		            System.out.println(cont + ". posizioan ( "+ hitzak + " ) hitza gorde da.");
+		        }
+		        
+		   
+		        teklatua.close();
+		    
 
 
 	}
